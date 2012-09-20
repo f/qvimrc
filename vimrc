@@ -1,6 +1,8 @@
 set nocompatible
 filetype off
 
+syntax on
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -15,7 +17,7 @@ colorscheme railscasts
 
 " Powerline
 Bundle 'Lokaltog/vim-powerline'
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'compatible'
 set laststatus=2
 set t_Co=256
 
@@ -26,10 +28,10 @@ let g:use_zen_complete_tag = 1
 
 " NERDTree
 Bundle 'scrooloose/nerdtree'
-nmap <C-B> :NERDTreeToggle<CR>
+Bundle 'jistr/vim-nerdtree-tabs'
+nmap <C-B> :NERDTreeTabsToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
-Bundle 'jistr/vim-nerdtree-tabs'
 
 filetype plugin indent on
 
@@ -73,6 +75,8 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 " Tab keymap
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
+nnoremap <A-Left> :tabprevious<CR>
+nnoremap <A-Right> :tabnext<CR>
 nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
 nnoremap <C-t> :tabnew<CR>
@@ -81,4 +85,3 @@ inoremap <C-t> <Esc>:tabnew<CR>
 " Shift-tab
 nmap <S-Tab> <<
 imap <S-Tab> <Esc><<i
-
