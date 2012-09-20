@@ -6,6 +6,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'fugitive.vim'
 Bundle 'pangloss/vim-javascript'
 
