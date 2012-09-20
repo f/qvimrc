@@ -6,7 +6,6 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'fugitive.vim'
 Bundle 'pangloss/vim-javascript'
 
@@ -30,6 +29,8 @@ Bundle 'scrooloose/nerdtree'
 nmap <C-B> :NERDTreeToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
+
+Bundle 'jistr/vim-nerdtree-tabs'
 
 filetype plugin indent on
 
