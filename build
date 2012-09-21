@@ -1,7 +1,7 @@
 echo "Hi"
 echo "Do you want to backup your VIM configuration files? [Y/n]"
 read vimbackup
-if [ "$vimbackup" != "n" ]; then
+if [ "$vimbackup" = "y" ]; then
   echo "Moving ~/.vimrc to ~/.vimrc.bak"
   mv ~/.vimrc ~/.vimrc.bak
   echo "Moving ~/.vim/ to ~/.vim.bak/"
@@ -10,7 +10,7 @@ if [ "$vimbackup" != "n" ]; then
 else
   read vimdelete
   echo "Do you want to delete your current settings then? [Y/n]"
-  if [ "$vimdelete" != "n" ]; then
+  if [ "$vimdelete" = "y" ]; then
     rm -rf ~/.vim*
     echo "Deleted ~/.vimrc and ~/.vim"
   fi
