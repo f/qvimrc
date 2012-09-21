@@ -43,6 +43,13 @@ or
 
 You can feel free to contribute.
 
+# How To Use
+
+`CTRL + B`: Open NERDTree
+`CTRL + T`: Open Tab
+`SHIFT + Arrows`: Navigate Tabs
+`ALT + Arrows`: Move Tabs
+
 ----
 #### LICENSE
 
