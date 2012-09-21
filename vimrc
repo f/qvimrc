@@ -77,6 +77,13 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 
 " Keymap
 
+function InlineCommand()
+    let l:cmd = input('Command: ')
+    let l:output = system(l:cmd)
+    let l:output = substitute(l:output, '[\r\n]*$', '', '')
+    execute 'normal i' . l:output
+endfunction
+
 " Tab keymap
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
@@ -86,6 +93,8 @@ nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
 nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
 nnoremap <C-t> :tabnew<CR>
 inoremap <C-t> <Esc>:tabnew<CR>
+
+nnoremap <C-r> :call InlineCommand()<CR>
 
 " Shift-tab
 nmap <S-Tab> <<
