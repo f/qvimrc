@@ -2,18 +2,21 @@ echo "Hi"
 echo "Do you want to backup your VIM configuration files? [Y/n]"
 read vimbackup
 if [ "$vimbackup" = "y" ]; then
-  echo "Moving ~/.vimrc to ~/.vimrc.bak"
-  mv ~/.vimrc ~/.vimrc.bak
-  echo "Moving ~/.vim/ to ~/.vim.bak/"
-  mv ~/.vim ~/.vim.bak
-  echo "Your current settings are safe now."
+    rm -f ~/.vimrc.bak
+    rm -rf ~/.vim.bak
+    echo "Moving ~/.vimrc to ~/.vimrc.bak"
+    mv ~/.vimrc ~/.vimrc.bak
+    echo "Moving ~/.vim/ to ~/.vim.bak/"
+    cp -R ~/.vim ~/.vim.bak
+    rm -rf ~/.vim
+    echo "Your current settings are safe now."
 else
-  read vimdelete
-  echo "Do you want to delete your current settings then? [Y/n]"
-  if [ "$vimdelete" = "y" ]; then
-    rm -rf ~/.vim*
-    echo "Deleted ~/.vimrc and ~/.vim"
-  fi
+    read vimdelete
+    echo "Do you want to delete your current settings then? [Y/n]"
+    if [ "$vimdelete" = "y" ]; then
+        rm -rf ~/.vim*
+        echo "Deleted ~/.vimrc and ~/.vim"
+    fi
 fi
 echo "Installing VIM settings..."
 echo "Installing Vundle: the vim bundle manager..."
