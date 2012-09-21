@@ -3,33 +3,6 @@ LightWeight Vim Setup for Front-end Development
 
 Very quick vim setup for front-end developers.
 
-### The Bundles: every bundle is a git repository.
-```bash
-# Vundle, the Bundle Manager
-Bundle 'gmarik/vundle'
-
-# Fugitive, the Git Manager
-Bundle 'tpope/vim-fugitive'
-
-# JavaScript, plugin for JS syntax and indentation
-Bundle 'pangloss/vim-javascript'
-
-# A color scheme
-Bundle 'jgdavey/vim-railscasts'
-
-# Powerline, beautiful status line
-Bundle 'Lokaltog/vim-powerline'
-
-# NerdTREE, the file browser
-Bundle 'scrooloose/nerdtree'
-
-# NerdTREETabs, NERDTree patch for cool tab support.
-Bundle 'jistr/vim-nerdtree-tabs'
-
-# ConqueTerm, the command line buffers.
-Bundle 'rygwdn/vim-conque'
-```
-
 ## Linux (and OS X)
 
 #### IMPORTANT: You should back-up your `~/.vimrc` file and `~/.vim/` directory before install. (Quick Setup will ask.)
@@ -68,7 +41,32 @@ or
  * Buy a Mac.
  * Follow Linux Instructions
 
-You can feel free to contribute.
+### The Bundles: every bundle is a git repository.
+```bash
+# Vundle, the Bundle Manager
+Bundle 'gmarik/vundle'
+
+# Fugitive, the Git Manager
+Bundle 'tpope/vim-fugitive'
+
+# JavaScript, plugin for JS syntax and indentation
+Bundle 'pangloss/vim-javascript'
+
+# A color scheme
+Bundle 'jgdavey/vim-railscasts'
+
+# Powerline, beautiful status line
+Bundle 'Lokaltog/vim-powerline'
+
+# NerdTREE, the file browser
+Bundle 'scrooloose/nerdtree'
+
+# NerdTREETabs, NERDTree patch for cool tab support.
+Bundle 'jistr/vim-nerdtree-tabs'
+
+# ConqueTerm, the command line buffers.
+Bundle 'rygwdn/vim-conque'
+```
 
 # How To Use
 
@@ -81,6 +79,8 @@ You can feel free to contribute.
  * `CTRL + w, CTRL + w (double)`: Navigate Split Views, (Also you can use mouse)
  * `CTRL + r`: Run a command and put its output.
 
+
+You can feel free to contribute.
 ----
 #### LICENSE
 
