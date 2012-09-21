@@ -35,6 +35,9 @@ nmap <C-B> :NERDTreeTabsToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
 
+" ConqueTerm
+Bundle 'rygwdn/vim-conque'
+
 filetype plugin indent on
 
 set encoding=utf-8
