@@ -13,7 +13,8 @@ Bundle 'pangloss/vim-javascript'
 
 " Railscasts
 Bundle 'jgdavey/vim-railscasts'
-colorscheme railscasts
+" colorscheme railscasts
+" Will be written in build.
 
 " Powerline
 Bundle 'Lokaltog/vim-powerline'
