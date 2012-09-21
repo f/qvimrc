@@ -9,7 +9,7 @@ Quick Setup for Windows Users:
 
  * Go to `http://www.ubuntu.com`
  * Download the ISO and burn an Ubuntu CD
- * Install Ubuntu
+ * Install Ubuntu GNU/Linux
  * Follow Linux instructions
 
 or
