@@ -1,5 +1,5 @@
 echo ""
-echo "qvimrc"
+echo "qvimrc: quick vim configuration"
 echo "Author: Fatih Kadir Akın (@fkadev)"
 echo ""
 echo "Do you want to backup your VIM configuration files? [Y/n]"
