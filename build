@@ -29,4 +29,8 @@ echo "Installing required bundles with Vundle."
 vim +BundleInstall +qall
 echo "Installation complete, now changing color scheme to the railscasts..."
 echo 'colorscheme railscasts' >> ~/.vimrc
-echo "Installation complete. Please restart your terminal and start vim."
+echo "Do you want to edit .vimrc? [y/N]"
+read vimstart
+if [ "$vimstart" != "n" ]
+     vim ~/.vimrc
+fi
