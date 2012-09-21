@@ -14,6 +14,11 @@ Copy and paste this code into your terminal and run.
 ```bash
 curl https://raw.github.com/fkadeveloper/qvimrc/master/build 2>/dev/null > /tmp/build.sh && chmod +x /tmp/build.sh && /tmp/build.sh
 ```
+You will see something like that:
+![Step 1](https://raw.github.com/fkadeveloper/qvimrc/master/docs/1.png)
+
+And while bundling your vim plugins:
+![Step 2](https://raw.github.com/fkadeveloper/qvimrc/master/docs/2.png)
 
 ### Nerd Setup 
 #### (If you think we are collecting your personal data while quick setup, you can build it yourself.)
