@@ -77,7 +77,8 @@ Bundle 'rygwdn/vim-conque'
  * `CTRL + e`: Expand ZenCoding Syntax
  * `CTRL + n`: Open OmniComplete
  * `CTRL + w, CTRL + w (double)`: Navigate Split Views, (Also you can use mouse)
- * `CTRL + r`: Run a command and put its output.
+ * `CTRL + r`: Run a command and put its output. (Normal Mode)
+ * `F9`: Run a line as command and put its output. (Normal Mode)
 
 
 You can feel free to contribute.
