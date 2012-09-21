@@ -3,20 +3,6 @@ LightWeight Vim Setup for Front-end Development
 
 Very quick vim setup for front-end developers.
 
-## Windows
-
-Quick Setup for Windows Users:
-
- * Go to `http://www.ubuntu.com`
- * Download the ISO and burn an Ubuntu CD
- * Install Ubuntu GNU/Linux
- * Follow Linux instructions
-
-or
-
- * Buy a Mac.
- * Follow Linux Instructions
-
 ## Linux (and OS X)
 
 #### IMPORTANT: You should back-up your `~/.vimrc` file and `~/.vim/` directory before install. (Quick Setup will ask.)
@@ -40,6 +26,20 @@ vim +BundleInstall +qall > /dev/null
 echo '' >> ~/.vimrc
 echo 'colorscheme railscasts' >> ~/.vimrc
 ```
+
+## Windows
+
+Quick Setup for Windows Users:
+
+ * Go to `http://www.ubuntu.com`
+ * Download the ISO and burn an Ubuntu CD
+ * Install Ubuntu GNU/Linux
+ * Follow Linux instructions
+
+or
+
+ * Buy a Mac.
+ * Follow Linux Instructions
 
 You can feel free to contribute.
 
