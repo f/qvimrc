@@ -8,7 +8,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle 'fugitive.vim'
+Bundle 'tpope/vim-fugitive'
 Bundle 'pangloss/vim-javascript'
 
 " Railscasts
