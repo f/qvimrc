@@ -107,4 +107,5 @@ map <F9> :call InlineCommandLine()<CR>
 " Shift-tab
 nmap <S-Tab> <<
 imap <S-Tab> <Esc><<i
-colorscheme railscasts
+
+### end
