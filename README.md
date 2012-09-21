@@ -12,7 +12,7 @@ Very quick vim setup for front-end developers.
 If you got an error about "railscasts theme does not exist" just pass it pressing Enter.
 
 ```bash
-curl https://raw.github.com/fkadeveloper/qvimrc/master/build | sh
+curl https://raw.github.com/fkadeveloper/qvimrc/master/build 2>/dev/null > /tmp/build.sh && chmod +x /tmp/build.sh && /tmp/build.sh
 ```
 
 ### Nerd Setup
