@@ -3,7 +3,7 @@ LightWeight Vim Setup for Front-end Development
 
 Very quick vim setup for front-end developers.
 
-## Linux
+## Linux (and OS X)
 
 #### IMPORTANT: You should back-up your `~/.vimrc` file and `~/.vim/` directory before install. (Quick Setup will ask.)
 
