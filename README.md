@@ -15,9 +15,11 @@ Copy and paste this code into your terminal and run.
 curl https://raw.github.com/fkadeveloper/qvimrc/master/build 2>/dev/null > /tmp/build.sh && chmod +x /tmp/build.sh && /tmp/build.sh
 ```
 You will see something like that:
+
 ![Step 1](https://raw.github.com/fkadeveloper/qvimrc/master/docs/1.png)
 
 And while bundling your vim plugins:
+
 ![Step 2](https://raw.github.com/fkadeveloper/qvimrc/master/docs/2.png)
 
 ### Nerd Setup 
