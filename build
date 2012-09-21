@@ -28,6 +28,7 @@ curl https://raw.github.com/fkadeveloper/qvimrc/master/Inconsolata-dz-Powerline.
 echo "Installing required bundles with Vundle."
 vim +BundleInstall +qall
 echo "Installation complete, now changing color scheme to the railscasts..."
+echo '' >> ~/.vimrc
 echo 'colorscheme railscasts' >> ~/.vimrc
 echo "Do you want to edit .vimrc? [y/N]"
 read vimstart
