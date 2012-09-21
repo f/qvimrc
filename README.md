@@ -5,9 +5,9 @@ Very quick vim setup for front-end developers.
 
 ## Linux
 
-#### IMPORTANT: You should back-up your `~/.vimrc` file and `~/.vim/` directory before install.
+#### IMPORTANT: You should back-up your `~/.vimrc` file and `~/.vim/` directory before install. (Quick Setup will ask.)
 
-### Quick Setup
+### Quick Setup (Recommended)
 
 Copy and paste this code into your terminal and run.
 
@@ -15,7 +15,8 @@ Copy and paste this code into your terminal and run.
 curl https://raw.github.com/fkadeveloper/qvimrc/master/build 2>/dev/null > /tmp/build.sh && chmod +x /tmp/build.sh && /tmp/build.sh
 ```
 
-### Nerd Setup
+### Nerd Setup 
+#### (If you think we are collecting your personal data while quick setup, you can build it yourself.)
 
 ```bash
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
