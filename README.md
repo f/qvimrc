@@ -5,28 +5,28 @@ Very quick vim setup for front-end developers.
 
 ### The Bundles: every bundle is a git repository.
 ```bash
-" Vundle, the Bundle Manager
+# Vundle, the Bundle Manager
 Bundle 'gmarik/vundle'
 
-" Fugitive, the Git Manager
+# Fugitive, the Git Manager
 Bundle 'tpope/vim-fugitive'
 
-" JavaScript, plugin for JS syntax and indentation
+# JavaScript, plugin for JS syntax and indentation
 Bundle 'pangloss/vim-javascript'
 
-" A color scheme
+# A color scheme
 Bundle 'jgdavey/vim-railscasts'
 
-" Powerline, beautiful status line
+# Powerline, beautiful status line
 Bundle 'Lokaltog/vim-powerline'
 
-" NerdTREE, the file browser
+# NerdTREE, the file browser
 Bundle 'scrooloose/nerdtree'
 
-" NerdTREETabs, NERDTree patch for cool tab support.
+# NerdTREETabs, NERDTree patch for cool tab support.
 Bundle 'jistr/vim-nerdtree-tabs'
 
-" ConqueTerm, the command line buffers.
+# ConqueTerm, the command line buffers.
 Bundle 'rygwdn/vim-conque'
 ```
 
