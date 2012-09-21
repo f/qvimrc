@@ -1,4 +1,7 @@
-echo "Hi"
+echo ""
+echo "qvimrc"
+echo "Author: Fatih Kadir Akın (@fkadev)"
+echo ""
 echo "Do you want to backup your VIM configuration files? [Y/n]"
 read vimbackup
 if [ "$vimbackup" = "y" ] ; then
