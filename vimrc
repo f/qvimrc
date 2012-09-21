@@ -84,6 +84,13 @@ function InlineCommand()
     execute 'normal i' . l:output
 endfunction
 
+function InlineCommandLine()
+    let l:cmd = getline(line('.'))
+    let l:output = system(l:cmd)
+    let l:output = substitute(l:output, '[\r\n]*$', '', '')
+    execute 'normal o' . l:output
+endfunction
+
 " Tab keymap
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
@@ -95,7 +102,9 @@ nnoremap <C-t> :tabnew<CR>
 inoremap <C-t> <Esc>:tabnew<CR>
 
 nnoremap <C-r> :call InlineCommand()<CR>
+map <F9> :call InlineCommandLine()<CR>
 
 " Shift-tab
 nmap <S-Tab> <<
 imap <S-Tab> <Esc><<i
+colorscheme railscasts
