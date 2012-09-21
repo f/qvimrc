@@ -1,4 +1,21 @@
 #!/bin/bash
+echo "Hi"
+echo "Do you want to backup your VIM configuration files? [Y/n]"
+read vimbackup
+if [ "$vimbackup" != "n" ]; then
+  echo "Moving ~/.vimrc to ~/.vimrc.bak"
+  mv ~/.vimrc ~/.vimrc.bak
+  echo "Moving ~/.vim/ to ~/.vim.bak/"
+  mv ~/.vim ~/.vim.bak
+  echo "Your current settings are safe now."
+else
+  read vimdelete
+  echo "Do you want to delete your current settings then? [Y/n]"
+  if [ "$vimdelete" != "n" ]; then
+    rm -rf ~/.vim*
+    echo "Deleted ~/.vimrc and ~/.vim"
+  fi
+fi
 echo "Installing VIM settings..."
 echo "Installing Vundle: the vim bundle manager..."
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
