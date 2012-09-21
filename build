@@ -1,6 +1,13 @@
 #!/bin/bash
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+echo "Installing VIM settings..."
+echo "Installing Vundle: the vim bundle manager..."
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
+echo "Configuring vimrc..."
 curl https://raw.github.com/fkadeveloper/qvimrc/master/vimrc > ~/.vimrc
-curl https://raw.github.com/fkadeveloper/qvimrc/master/Inconsolata-dz-Powerline.otf > \
-~/.fonts/Inconsolata-dz-Powerline.otf
-vim +BundleInstall +qall
+echo "Installing required font: Inconsolata..."
+curl https://raw.github.com/fkadeveloper/qvimrc/master/Inconsolata-dz-Powerline.otf > ~/.fonts/Inconsolata-dz-Powerline.otf
+echo "Installing required bundles with Vundle."
+vim +BundleInstall +qall > /dev/null
+echo "Installation complete, now changing color scheme to the railscasts..."
+echo 'colorscheme railscasts' >> ~/.vimrc
+echo "Installation complete. Please restart your terminal and start vim."
