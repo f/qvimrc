@@ -45,10 +45,14 @@ You can feel free to contribute.
 
 # How To Use
 
- * `CTRL + B`: Open NERDTree
- * `CTRL + T`: Open Tab
+ * `CTRL + b`: Open/Close NERDTree
+ * `CTRL + t`: Open Tab
  * `SHIFT + Arrows`: Navigate Tabs
  * `ALT + Arrows`: Move Tabs
+ * `CTRL + e`: Expand ZenCoding Syntax
+ * `CTRL + n`: Open OmniComplete
+ * `CTRL + w, CTRL + w (double)`: Navigate Split Views, (Also you can use mouse)
+ * `CTRL + r`: Run a command and put its output.
 
 ----
 #### LICENSE
