@@ -1,4 +1,3 @@
-#!/bin/bash
 echo "Hi"
 echo "Do you want to backup your VIM configuration files? [Y/n]"
 read vimbackup
@@ -18,7 +17,7 @@ else
 fi
 echo "Installing VIM settings..."
 echo "Installing Vundle: the vim bundle manager..."
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
+git clone -q https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
 echo "Configuring vimrc..."
 curl -N https://raw.github.com/fkadeveloper/qvimrc/master/vimrc > ~/.vimrc
 echo "Installing required font: Inconsolata..."
