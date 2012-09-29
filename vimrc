@@ -13,8 +13,8 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'pangloss/vim-javascript'
 
 " Railscasts
-Bundle 'jgdavey/vim-railscasts'
-" colorscheme railscasts
+Bundle 'tomasr/molokai'
+" colorscheme molokai
 " Will be written in build.
 
 " Powerline
