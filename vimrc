@@ -38,6 +38,9 @@ let NERDTreeDirArrows=0
 " ConqueTerm
 Bundle 'rygwdn/vim-conque'
 
+" Matrix Screensaver
+Bundle 'uguu-org/vim-matrix-screensaver'
+
 filetype plugin indent on
 
 set encoding=utf-8
