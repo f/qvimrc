@@ -33,7 +33,7 @@ echo "Installing required bundles with Vundle."
 vim +BundleInstall +qall
 echo "Installation complete, now changing color scheme to the railscasts..."
 echo '' >> ~/.vimrc
-echo 'colorscheme railscasts' >> ~/.vimrc
+echo 'colorscheme molokai' >> ~/.vimrc
 echo "Do you want to edit .vimrc? [Y/n]"
 read vimstart
 if [ "$vimstart" != "n" ] ; then
