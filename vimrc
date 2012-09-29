@@ -41,6 +41,7 @@ Bundle 'rygwdn/vim-conque'
 filetype plugin indent on
 
 set encoding=utf-8
+set fileencodings=utf-8
 
 set autochdir
 set autoindent
