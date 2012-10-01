@@ -67,7 +67,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 # ConqueTerm, the command line buffers.
 Bundle 'rygwdn/vim-conque'
 
-" Matrix Screensaver (for fun)
+# Matrix Screensaver (for fun)
 Bundle 'uguu-org/vim-matrix-screensaver'
 ```
 
