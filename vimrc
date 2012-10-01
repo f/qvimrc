@@ -34,6 +34,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 nmap <C-B> :NERDTreeTabsToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
+let NERDTreeIgnore=['\.pyc$', '\~$']
 
 " ConqueTerm
 Bundle 'rygwdn/vim-conque'
