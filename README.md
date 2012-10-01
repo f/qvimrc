@@ -53,7 +53,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'pangloss/vim-javascript'
 
 # A color scheme
-Bundle 'jgdavey/vim-railscasts'
+Bundle 'tomasr/molokai'
 
 # Powerline, beautiful status line
 Bundle 'Lokaltog/vim-powerline'
@@ -66,6 +66,9 @@ Bundle 'jistr/vim-nerdtree-tabs'
 
 # ConqueTerm, the command line buffers.
 Bundle 'rygwdn/vim-conque'
+
+" Matrix Screensaver (for fun)
+Bundle 'uguu-org/vim-matrix-screensaver'
 ```
 
 # How To Use
