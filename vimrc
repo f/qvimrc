@@ -43,7 +43,7 @@ Bundle 'rygwdn/vim-conque'
 Bundle 'miripiruni/CSScomb-for-Vim'
 
 " Surround
-Bundle 'surround.vim'
+Bundle 'tpope/vim-surround'
 
 filetype plugin indent on
 
