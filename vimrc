@@ -42,6 +42,9 @@ Bundle 'rygwdn/vim-conque'
 " CSScomb
 Bundle 'miripiruni/CSScomb-for-Vim'
 
+" Surround
+Bundle 'surround.vim'
+
 filetype plugin indent on
 
 set encoding=utf-8
