@@ -39,8 +39,8 @@ let NERDTreeIgnore=['\.pyc$', '\~$']
 " ConqueTerm
 Bundle 'rygwdn/vim-conque'
 
-" Matrix Screensaver
-Bundle 'uguu-org/vim-matrix-screensaver'
+" CSScomb
+Bundle 'miripiruni/CSScomb-for-Vim'
 
 filetype plugin indent on
 
