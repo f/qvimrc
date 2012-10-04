@@ -3,12 +3,14 @@ LightWeight Vim Setup for Front-end Development
 
 Very quick vim setup for front-end developers.
 
-Preview:
+### Preview with iTerm2, Vim (with qvimrc), Zsh on MacOSX
 ![Preview](https://raw.github.com/fkadeveloper/qvimrc/master/docs/3.png)
 
 ## Linux (and OS X)
 
 #### IMPORTANT: You should back-up your `~/.vimrc` file and `~/.vim/` directory before install. (Quick Setup will ask.)
+
+#### Note for OS X: You cannat use mouse in Terminal.app, I prefer iTerm2 as Terminal, more powerful.
 
 ### Quick Setup (Recommended)
 
