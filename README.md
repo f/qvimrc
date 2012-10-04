@@ -77,9 +77,8 @@ Bundle 'fholgado/minibufexpl.vim'
 # How To Use
 
  * `CTRL + b`: Open/Close NERDTree
- * `CTRL + t`: Open Tab
- * `SHIFT + Arrows`: Navigate Tabs
- * `ALT + Arrows`: Move Tabs
+ * `Tab`: Next Buffer (Tab-like, Normal Mode)
+ * `SHIFT + Tab`: Previous Buffer (Tab-like, Normal Mode)
  * `CTRL + e`: Expand ZenCoding Syntax
  * `CTRL + n`: Open OmniComplete
  * `CTRL + w, CTRL + w (double)`: Navigate Split Views, (Also you can use mouse)
