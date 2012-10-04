@@ -45,6 +45,9 @@ Bundle 'miripiruni/CSScomb-for-Vim'
 " Surround
 Bundle 'tpope/vim-surround'
 
+" BufExplorer
+Bundle 'fholgado/minibufexpl.vim'
+
 filetype plugin indent on
 
 set encoding=utf-8
