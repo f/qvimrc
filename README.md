@@ -69,6 +69,9 @@ Bundle 'rygwdn/vim-conque'
 
 # Matrix Screensaver (for fun)
 Bundle 'uguu-org/vim-matrix-screensaver'
+
+# Buffer Explorer
+Bundle 'fholgado/minibufexpl.vim'
 ```
 
 # How To Use
