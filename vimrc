@@ -103,21 +103,14 @@ function InlineCommandLine()
     execute 'normal o' . l:output
 endfunction
 
-" Tab keymap
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
-nnoremap <A-Left> :tabprevious<CR>
-nnoremap <A-Right> :tabnext<CR>
-nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
-nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
-nnoremap <C-t> :tabnew<CR>
-inoremap <C-t> <Esc>:tabnew<CR>
+" Buffer Explorer
+nmap <Tab> :bn!<CR>
+nmap <S-Tab> :bp!<CR>
 
 nnoremap <C-r> :call InlineCommand()<CR>
 map <F9> :call InlineCommandLine()<CR>
 
 " Shift-tab
-nmap <S-Tab> <<
 imap <S-Tab> <Esc><<i
 
 " end
