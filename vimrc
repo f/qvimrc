@@ -109,6 +109,9 @@ endfunction
 nmap <Tab> :bn!<CR>
 nmap <S-Tab> :bp!<CR>
 
+" Split View Switch
+nmap <F9> <C-w><C-w>
+
 nnoremap <C-r> :call InlineCommand()<CR>
 map <F9> :call InlineCommandLine()<CR>
 
