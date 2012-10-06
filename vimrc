@@ -46,6 +46,7 @@ Bundle 'tpope/vim-surround'
 
 " BufExplorer
 Bundle 'jeetsukumaran/vim-buffergator'
+map <C-b> :BuffergatorToggle<CR>
 
 filetype plugin indent on
 
