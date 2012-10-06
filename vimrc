@@ -45,7 +45,7 @@ Bundle 'miripiruni/CSScomb-for-Vim'
 Bundle 'tpope/vim-surround'
 
 " BufExplorer
-Bundle 'bufexplorer.zip'
+Bundle 'jeetsukumaran/vim-buffergator'
 
 filetype plugin indent on
 
