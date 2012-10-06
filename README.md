@@ -82,7 +82,12 @@ Bundle 'jeetsukumaran/vim-buffergator'
  * `CTRL + r`: Run a command and put its output. (Normal Mode)
  * `CTRL + b`: Buffer list.
 
+# Contributors
+
 You can feel free to contribute.
+
+[Doğan Aydın - doganaydin](http://github.com/doganaydin)
+
 ----
 #### LICENSE
 
