@@ -70,20 +70,17 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'rygwdn/vim-conque'
 
 # Buffer Explorer
-Bundle 'vim-scripts/buftabs'
+Bundle 'jeetsukumaran/vim-buffergator'
 ```
 
 # How To Use
 
- * `CTRL + b`: Open/Close NERDTree
- * `Tab`: Next Buffer (Tab-like, Normal Mode)
- * `SHIFT + Tab`: Previous Buffer (Tab-like, Normal Mode)
+ * `CTRL + n`: Open/Close NERDTree
+ * `Tab` or `CTRL + w, CTRL + w (double)`: Next Window, Navigate Split Views, (Also you can use mouse)
  * `CTRL + e`: Expand ZenCoding Syntax
  * `CTRL + n`: Open OmniComplete
- * `CTRL + w, CTRL + w (double)`: Navigate Split Views, (Also you can use mouse)
  * `CTRL + r`: Run a command and put its output. (Normal Mode)
- * `F9`: Run a line as command and put its output. (Normal Mode)
-
+ * `CTRL + b`: Buffer list.
 
 You can feel free to contribute.
 ----
