@@ -30,8 +30,7 @@ let g:use_zen_complete_tag = 1
 
 " NERDTree
 Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-nmap <C-B> :NERDTreeTabsToggle<CR>
+nmap <C-B> :NERDTreeToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
 let NERDTreeIgnore=['\.pyc$', '\~$']
@@ -46,7 +45,7 @@ Bundle 'miripiruni/CSScomb-for-Vim'
 Bundle 'tpope/vim-surround'
 
 " BufExplorer
-Bundle 'fholgado/minibufexpl.vim'
+Bundle 'vim-scripts/buftabs'
 
 filetype plugin indent on
 
