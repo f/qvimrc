@@ -30,7 +30,12 @@ echo "Installing required font: Inconsolata..."
 mkdir -p ~/.fonts
 curl -k https://raw.github.com/fkadeveloper/qvimrc/master/Inconsolata-dz-Powerline.otf 2>/dev/null > ~/.fonts/Inconsolata-dz-Powerline.otf
 echo "Installing required bundles with Vundle."
-vim +BundleInstall +qall
+touch /tmp/qvimrc-readme
+echo "Installing QVimrc Bundles." > /tmp/qvimrc-readme
+echo "Please wait while we are making your vim beautiful..." >> /tmp/qvimrc-readme
+echo "..." >> /tmp/qvimrc-readme
+echo "After installation ends, this window will be closed. Be patient please." >> /tmp/qvimrc-readme
+vim /tmp/qvimrc-readme +"colorscheme desert" +BundleInstall +qall
 echo "Installation complete, now changing color scheme to the Molokai..."
 echo '' >> ~/.vimrc
 echo 'colorscheme molokai' >> ~/.vimrc
