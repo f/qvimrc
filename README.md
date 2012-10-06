@@ -17,7 +17,7 @@ Very quick vim setup for front-end developers.
 Copy and paste this code into your terminal and run.
 
 ```bash
-curl https://raw.github.com/fkadeveloper/qvimrc/master/build 2>/dev/null > /tmp/build.sh && chmod +x /tmp/build.sh && /tmp/build.sh
+curl -k https://raw.github.com/fkadeveloper/qvimrc/master/build 2>/dev/null > /tmp/build.sh && chmod +x /tmp/build.sh && /tmp/build.sh
 ```
 You will see something like that:
 
