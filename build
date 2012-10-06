@@ -35,7 +35,7 @@ echo "Installing QVimrc Bundles." > /tmp/qvimrc-readme
 echo "Please wait while we are making your vim beautiful..." >> /tmp/qvimrc-readme
 echo "..." >> /tmp/qvimrc-readme
 echo "After installation ends, this window will be closed. Be patient please." >> /tmp/qvimrc-readme
-vim /tmp/qvimrc-readme +"colorscheme desert" +BundleInstall +qall
+vim /tmp/qvimrc-readme +"colorscheme desert" +"setfiletype text" +BundleInstall +qall
 echo "Installation complete, now changing color scheme to the Molokai..."
 echo '' >> ~/.vimrc
 echo 'colorscheme molokai' >> ~/.vimrc
