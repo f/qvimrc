@@ -30,7 +30,7 @@ let g:use_zen_complete_tag = 1
 
 " NERDTree
 Bundle 'scrooloose/nerdtree'
-nmap <C-B> :NERDTreeToggle<CR>
+nmap <C-n> :NERDTreeToggle<CR>
 let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
 let NERDTreeIgnore=['\.pyc$', '\~$']
@@ -45,7 +45,7 @@ Bundle 'miripiruni/CSScomb-for-Vim'
 Bundle 'tpope/vim-surround'
 
 " BufExplorer
-Bundle 'bufexplorer'
+Bundle 'bufexplorer.zip'
 
 filetype plugin indent on
 
@@ -97,12 +97,8 @@ function InlineCommand()
     execute 'normal i' . l:output
 endfunction
 
-" Buffer Explorer
-nmap <Tab> :bn!<CR>
-nmap <S-Tab> :bp!<CR>
-
 " Split View Switch
-nmap <F12> <C-w><C-w>
+nmap <Tab> <C-w><C-w>
 
 nnoremap <C-r> :call InlineCommand()<CR>
 
