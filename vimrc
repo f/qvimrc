@@ -45,7 +45,7 @@ Bundle 'miripiruni/CSScomb-for-Vim'
 Bundle 'tpope/vim-surround'
 
 " BufExplorer
-Bundle 'vim-scripts/buftabs'
+Bundle 'bufexplorer'
 
 filetype plugin indent on
 
@@ -97,13 +97,6 @@ function InlineCommand()
     execute 'normal i' . l:output
 endfunction
 
-function InlineCommandLine()
-    let l:cmd = getline(line('.'))
-    let l:output = system(l:cmd)
-    let l:output = substitute(l:output, '[\r\n]*$', '', '')
-    execute 'normal o' . l:output
-endfunction
-
 " Buffer Explorer
 nmap <Tab> :bn!<CR>
 nmap <S-Tab> :bp!<CR>
@@ -112,7 +105,6 @@ nmap <S-Tab> :bp!<CR>
 nmap <F12> <C-w><C-w>
 
 nnoremap <C-r> :call InlineCommand()<CR>
-map <F9> :call InlineCommandLine()<CR>
 
 " Shift-tab
 imap <S-Tab> <Esc><<i
