@@ -48,6 +48,9 @@ Bundle 'tpope/vim-surround'
 Bundle 'jeetsukumaran/vim-buffergator'
 map <C-b> :BuffergatorToggle<CR>
 
+" MrsWin
+Bundle 'fkadeveloper/mrswin.vim'
+
 filetype plugin indent on
 
 set encoding=utf-8
