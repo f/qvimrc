@@ -47,6 +47,7 @@ echo "Installation complete, now changing color scheme to the Molokai..."
 echo '' >> ~/.vimrc
 echo 'colorscheme molokai' >> ~/.vimrc
 echo "Do you want to edit .vimrc? [Y/n]"
+rm /tmp/qvimrc-readme /tmp/build.sh
 read vimstart
 if [ "$vimstart" != "n" ] ; then
      vim ~/.vimrc
