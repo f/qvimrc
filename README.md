@@ -66,21 +66,17 @@ Bundle 'Lokaltog/vim-powerline'
 # NerdTREE, the file browser
 Bundle 'scrooloose/nerdtree'
 
-# ConqueTerm, the command line buffers.
-Bundle 'rygwdn/vim-conque'
-
-# Buffer Explorer
-Bundle 'jeetsukumaran/vim-buffergator'
+# Easier use Vim with MSWin.vim
+Bundle 'fkadeveloper/mswin.vim'
 ```
 
 # How To Use
 
  * `CTRL + n`: Open/Close NERDTree
- * `Tab` or `CTRL + w, CTRL + w (double)`: Next Window, Navigate Split Views, (Also you can use mouse)
+ * `CTRL + i` or `CTRL + w, CTRL + w (double)`: Next Window, Navigate Split Views, (Also you can use mouse)
  * `CTRL + e`: Expand ZenCoding Syntax
  * `CTRL + n`: Open OmniComplete
- * `CTRL + r`: Run a command and put its output. (Normal Mode)
- * `CTRL + b`: Buffer list.
+ * `Tab`: Buffer list (Normal Mode)
 
 # Contributors
 
