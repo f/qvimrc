@@ -85,8 +85,8 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd w
 
-" Split View Switch
-nmap <Tab> :ls<CR>:buffer<Space>
+nmap <Tab> :CtrlPBuffer<CR>
+map <C-h> :CtrlPLine<CR>
 
 " Shift-tab
 imap <S-Tab> <Esc><<i

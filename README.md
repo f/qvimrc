@@ -78,6 +78,7 @@ Bundle 'fkadeveloper/mswin.vim'
  * `CTRL + n`: Open OmniComplete
  * `Tab`: Buffer list (Normal Mode)
  * `CTRL + p`: Fuzzy finder
+ * `CTRL + h`: Search in opened files
 
 # Contributors
 
