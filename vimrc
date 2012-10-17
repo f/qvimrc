@@ -41,6 +41,9 @@ Bundle 'miripiruni/CSScomb-for-Vim'
 " Surround
 Bundle 'tpope/vim-surround'
 
+" CtrlP (Wow!)
+Bundle 'kien/ctrlp.vim'
+
 filetype plugin indent on
 
 set encoding=utf-8
