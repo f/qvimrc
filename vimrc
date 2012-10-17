@@ -35,21 +35,11 @@ let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=0
 let NERDTreeIgnore=['\.pyc$', '\~$']
 
-" ConqueTerm
-Bundle 'rygwdn/vim-conque'
-
 " CSScomb
 Bundle 'miripiruni/CSScomb-for-Vim'
 
 " Surround
 Bundle 'tpope/vim-surround'
-
-" BufExplorer
-Bundle 'jeetsukumaran/vim-buffergator'
-map <C-b> :BuffergatorToggle<CR>
-
-" mswin.vim to behave looks like Microsoft products
-Bundle 'fkadeveloper/mswin.vim'
 
 filetype plugin indent on
 
@@ -92,19 +82,8 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd w
 
-" Keymap
-
-function InlineCommand()
-    let l:cmd = input('Command: ')
-    let l:output = system(l:cmd)
-    let l:output = substitute(l:output, '[\r\n]*$', '', '')
-    execute 'normal i' . l:output
-endfunction
-
 " Split View Switch
-nmap <Tab> <C-w><C-w>
-
-nnoremap <C-r> :call InlineCommand()<CR>
+nmap <Tab> :ls<CR>:buffer<Space>
 
 " Shift-tab
 imap <S-Tab> <Esc><<i
