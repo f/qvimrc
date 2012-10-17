@@ -48,8 +48,8 @@ Bundle 'tpope/vim-surround'
 Bundle 'jeetsukumaran/vim-buffergator'
 map <C-b> :BuffergatorToggle<CR>
 
-" MrsWin
-Bundle 'fkadeveloper/mrswin.vim'
+" mswin.vim to behave looks like Microsoft products
+Bundle 'fkadeveloper/mswin.vim'
 
 filetype plugin indent on
 
