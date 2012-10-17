@@ -29,13 +29,10 @@ curl -k https://raw.github.com/fkadeveloper/qvimrc/master/vimrc 2>/dev/null > ~/
 echo "Are you a vim geek? (wrtie 'n' to make vim easier.) [y/N]"
 read installmswinvim
 if [ "$installmswinvim" != "y" ]; then
+    echo "Making your VIM easier for you :)"
     echo '' >> ~/.vimrc
     echo "Bundle 'fkadeveloper/mswin.vim'" >> ~/.vimrc
-
 fi
-echo '' >> ~/.vimrc
-echo "Bundle 'fkadeveloper/mswin.vim'" >> ~/.vimrc
-echo ""
 echo "Installing required font: Inconsolata..."
 mkdir -p ~/.fonts
 curl -k https://raw.github.com/fkadeveloper/qvimrc/master/deps/Inconsolata-dz-Powerline.otf 2>/dev/null > ~/.fonts/Inconsolata-dz-Powerline.otf
