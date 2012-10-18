@@ -44,6 +44,9 @@ Bundle 'tpope/vim-surround'
 " CtrlP (Wow!)
 Bundle 'kien/ctrlp.vim'
 
+" SuperTab
+Bundle 'ervandew/supertab'
+
 filetype plugin indent on
 
 set encoding=utf-8
