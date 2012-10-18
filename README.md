@@ -68,6 +68,12 @@ Bundle 'scrooloose/nerdtree'
 
 # Easier use Vim with MSWin.vim
 Bundle 'fkadeveloper/mswin.vim'
+
+" CtrlP
+Bundle 'kien/ctrlp.vim'
+
+" SuperTab
+Bundle 'ervandew/supertab'
 ```
 
 # How To Use
