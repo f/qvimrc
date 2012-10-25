@@ -1,4 +1,4 @@
-LightWeight Vim Setup for Front-end Development
+LightWeight Vim Setup for Front-end Development (for now)
 ===============================================
 
 Very quick vim setup for front-end developers.
