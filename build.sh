@@ -25,7 +25,7 @@ echo "Installing VIM settings..."
 echo "Installing Vundle: the vim bundle manager..."
 git clone -q https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
 echo "Configuring vimrc..."
-curl -k https://raw.github.com/fkadeveloper/qvimrc/master/vimrc 2>/dev/null > ~/.vimrc
+curl -k https://raw.github.com/f/qvimrc/master/vimrc 2>/dev/null > ~/.vimrc
 echo "Are you a vim geek? (wrtie 'n' to make vim easier.) [y/N]"
 read installmswinvim
 if [ "$installmswinvim" != "y" ]; then
@@ -35,7 +35,7 @@ if [ "$installmswinvim" != "y" ]; then
 fi
 echo "Installing required font: Inconsolata..."
 mkdir -p ~/.fonts
-curl -k https://raw.github.com/fkadeveloper/qvimrc/master/deps/Inconsolata-dz-Powerline.otf 2>/dev/null > ~/.fonts/Inconsolata-dz-Powerline.otf
+curl -k https://raw.github.com/f/qvimrc/master/deps/Inconsolata-dz-Powerline.otf 2>/dev/null > ~/.fonts/Inconsolata-dz-Powerline.otf
 echo "Installing required bundles with Vundle."
 touch /tmp/qvimrc-readme
 echo "Installing QVimrc Bundles." > /tmp/qvimrc-readme
