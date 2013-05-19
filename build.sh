@@ -26,7 +26,7 @@ echo "Installing Vundle: the vim bundle manager..."
 git clone -q https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle > /dev/null
 echo "Configuring vimrc..."
 curl -k https://raw.github.com/f/qvimrc/master/vimrc 2>/dev/null > ~/.vimrc
-echo "Are you a vim geek? (wrtie 'n' to make vim easier.) [y/N]"
+echo "Are you a vim geek? (write 'n' to make vim easier.) [y/N]"
 read installmswinvim
 if [ "$installmswinvim" != "y" ]; then
     echo "Making your VIM easier for you :)"
