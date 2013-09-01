@@ -1,6 +1,8 @@
 LightWeight Vim Setup for Front-end Development (for now)
 ===============================================
 
+[![Clone to Koding](http://fatihak.in/app/klone/clone.png)](http://fatihak.in/app/klone/?/f/qvimrc)
+
 Very quick vim setup for front-end developers.
 
 ### Preview with iTerm2, Vim (with qvimrc), Zsh on MacOSX
