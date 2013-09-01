@@ -1,7 +1,7 @@
 LightWeight Vim Setup for Front-end Development (for now)
 ===============================================
 
-[![Clone to Koding](http://fatihak.in/app/klone/clone.png)](http://fatihak.in/app/klone/?/f/qvimrc)
+[![Clone in Koding](http://kbutton.org/clone.png)](http://kbutton.org/f/qvimrc)
 
 Very quick vim setup for front-end developers.
 
